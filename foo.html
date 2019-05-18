@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Roberto Lucha</title>
   
-  <link href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
   
   <style>
     
@@ -25,7 +25,7 @@
       position: relative;
       width: 100%;
       height: 100%;
-      font-family: 'Martel Sans', sans-serif;
+      font-family: sans-serif;
       color: var(--color-text);
     }
     
@@ -46,13 +46,6 @@
       flex-grow: 1;
     }
     
-    
-    
-    .brand {
-      
-      
-    }
-    
     .menu {
       flex-grow: 1;
       
@@ -68,6 +61,7 @@
       display: block;
       text-decoration: none;
       color: var(--color-text);
+      line-height: 2em;
     }
     
     .details {
@@ -75,10 +69,16 @@
     }
     
     .title {
-      font-size: 4rem;
-      line-height: 1em;
+      font-size: 2.4rem;
+      line-height: 1.2em;
       color: #222233;
-      margin-bottom: 16px;
+      margin-bottom: 48px;
+      max-width: 600px;
+      font-family: 'Source Serif Pro', serif;
+    }
+
+    .subtitle {
+      margin-bottom: 48px;
     }
     
     .description {
@@ -113,15 +113,15 @@
     </div>
     <div class="footer">
       <div class="details">
+        <div class="title">
+            Purescript Experiments in Creative Coding and Generative Art 
+        </div>
         <div class="description">
           <div class="command">
             <span class="key">SPACE</span> Generate another
           </div>
         </div>
       </div>
-      <div class="brand">
-        Roberto Lucha
-      </div>       
     </div>            
     
   </div>
