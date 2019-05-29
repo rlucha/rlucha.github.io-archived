@@ -11,7 +11,8 @@
     
     :root {
       --color-text: #111122;
-      --whitespace-block:96px;
+      --color-text-light: #444455;
+      --whitespace-block:10%;
     }
     
     * {
@@ -33,11 +34,10 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: calc(100vw - 64px);
-      height: calc(100vh - 64px);
+      width: 100vw;
+      height: 100vh;
       display: flex;
       flex-direction: column;
-      border: 32px solid #f0f0f0;
     }
     
     .header {
@@ -60,7 +60,7 @@
     .menu-item {
       display: block;
       text-decoration: none;
-      color: var(--color-text);
+      color: var(--color-text-light);
       line-height: 2em;
     }
     
@@ -69,7 +69,7 @@
     }
     
     .title {
-      font-size: 2.4rem;
+      font-size: 2rem;
       line-height: 1.2em;
       color: #222233;
       margin-bottom: 48px;
@@ -108,7 +108,7 @@
     <div class="header">
       <div class="menu">
         <a class="menu-item" href="/bar.html">Lines</a>
-        <a class="menu-item" href="/baz.html">Boxes (Lines II)</a>
+        <a class="menu-item" href="/baz.html">Boxes — Lines II</a>
       </div>
     </div>
     <div class="footer">
@@ -118,7 +118,7 @@
         </div>
         <div class="description">
           <div class="command">
-            <span class="key">SPACE</span> Generate another
+            <span class="key">TAP TO GENERATE</span>
           </div>
         </div>
       </div>
@@ -129,5 +129,5 @@
   
   
 </div>
-<script type="text/javascript" src="foo-1ecf3ed3fd9c010dac12.js"></script></body>
+<script type="text/javascript" src="foo-96483d4a4b485b2eec79.js"></script></body>
 </html>
