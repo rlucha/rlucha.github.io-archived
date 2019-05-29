@@ -1,0 +1,9 @@
+{
+  "short_name": "rlucha.io",
+  "name": "rlucha.io",
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#fff"
+}
